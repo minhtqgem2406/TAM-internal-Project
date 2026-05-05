@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Candidate">5707c36a83544310921ac710feaad3ea</application>
+        <filter/>
+        <name>Candidates</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1763182_talent_0.candidate_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-20 08:22:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f07c36a83544310921ac710feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidates</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ui_module_1f07c36a83544310921ac710feaad3ee</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-20 08:22:29</sys_updated_on>
+        <table>x_1763182_talent_0_candidate</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>sys_ui_module_1f07c36a83544310921ac710feaad3ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Candidate">5707c36a83544310921ac710feaad3ea</application><filter/><name>Candidates</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1763182_talent_0.candidate_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>nguyenlh</sys_created_by><sys_created_on>2026-04-20 08:22:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1f07c36a83544310921ac710feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Candidates</sys_name><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>sys_ui_module_1f07c36a83544310921ac710feaad3ee</sys_update_name><sys_updated_by>nguyenlh</sys_updated_by><sys_updated_on>2026-04-20 08:22:29</sys_updated_on><table>x_1763182_talent_0_candidate</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1144262617</payload_hash>
+        <record_name>Candidates</record_name>
+        <reverted_from/>
+        <source>b7b6900b83584310921ac710feaad335</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-20 08:22:29</sys_created_on>
+        <sys_id>2b07c36a83544310921ac710feaad3f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_recorded_at>19da9fbde7d0000001</sys_recorded_at>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-22 04:57:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9707c36a8a544310623ddb24cf26a0f1</update_guid>
+        <update_guid_history>9707c36a8a544310623ddb24cf26a0f1:-1144262617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-22 04:57:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2771c53baf0b41b8ab3c37b5d988a924</sys_id>
+        <sys_metadata>1f07c36a83544310921ac710feaad3ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidates</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>sys_ui_module_1f07c36a83544310921ac710feaad3ee</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_1f07c36a83544310921ac710feaad3ee">2b07c36a83544310921ac710feaad3f2</sys_update_version>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-22 04:57:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

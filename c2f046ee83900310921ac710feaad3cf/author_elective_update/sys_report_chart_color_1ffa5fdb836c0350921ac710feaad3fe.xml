@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="DELETE">
+        <color>#ff0000</color>
+        <color_name display_value="Crimson">65b3022ca9fe3dba00b0c2a1508ad489</color_name>
+        <display>background-color:#DC143C</display>
+        <element>u_tof_okr</element>
+        <name>x_1763182_talent_0_checkins</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-05 04:02:27</sys_created_on>
+        <sys_id>1ffa5fdb836c0350921ac710feaad3fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1763182_talent_0_checkins</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_report_chart_color_1ffa5fdb836c0350921ac710feaad3fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-05 04:10:00</sys_updated_on>
+        <value>&gt;75 days</value>
+    </sys_report_chart_color>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>sys_report_chart_color_1ffa5fdb836c0350921ac710feaad3fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color"><sys_report_chart_color action="INSERT_OR_UPDATE"><color>#ff0000</color><color_name display_value="Crimson">65b3022ca9fe3dba00b0c2a1508ad489</color_name><display>background-color:#DC143C</display><element>u_tof_okr</element><name>x_1763182_talent_0_checkins</name><sys_class_name>sys_report_chart_color</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-05 04:02:27</sys_created_on><sys_id>1ffa5fdb836c0350921ac710feaad3fe</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1763182_talent_0_checkins</sys_name><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>sys_report_chart_color_1ffa5fdb836c0350921ac710feaad3fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-05 04:10:00</sys_updated_on><value>&gt;75 days</value></sys_report_chart_color></record_update>]]></payload>
+        <payload_hash>1464496406</payload_hash>
+        <record_name>x_1763182_talent_0_checkins</record_name>
+        <reverted_from/>
+        <source>b7b6900b83584310921ac710feaad335</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-05 04:10:00</sys_created_on>
+        <sys_id>571d535f83ac0350921ac710feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df6541a440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-05 04:10:00</sys_updated_on>
+        <type>Chart Colors</type>
+        <update_guid>571d535f25ac0350e064749224d83120</update_guid>
+        <update_guid_history>571d535f25ac0350e064749224d83120:1464496406,ff9b57132dac035026a8b9daa0050893:-246152838,b06b9b9fe76c0350696e0f128ead5ca0:-1372202562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-05 04:35:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_chart_color">sys_report_chart_color</sys_db_object>
+        <sys_id>c3015e6f213a45a0aff392a7cb224bd9</sys_id>
+        <sys_metadata>1ffa5fdb836c0350921ac710feaad3fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0_checkins</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>sys_report_chart_color_1ffa5fdb836c0350921ac710feaad3fe</sys_update_name>
+        <sys_update_version display_value="sys_report_chart_color_1ffa5fdb836c0350921ac710feaad3fe">571d535f83ac0350921ac710feaad321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-05 04:35:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

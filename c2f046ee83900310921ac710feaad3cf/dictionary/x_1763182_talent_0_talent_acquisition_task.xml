@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f523076e83904310921ac710feaad37b" max_length="40" name="x_1763182_talent_0_talent_acquisition_task" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Recruit ID " max_length="32" name="u_ta_recruit_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
+        <index name="index2">
+            <element name="u_ta_recruit_id"/>
+        </index>
+    </element>
+</database>

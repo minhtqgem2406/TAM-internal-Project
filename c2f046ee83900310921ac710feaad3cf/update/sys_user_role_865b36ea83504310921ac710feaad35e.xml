@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <federated_id>85o1KH6NZVIZJjEMHPOvsbvAhYUioLGDvQdQvLWKWsw=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1763182_talent_0.bid_presales_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>bid_presales_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-04-20 07:31:20</sys_created_on>
+        <sys_id>865b36ea83504310921ac710feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0.bid_presales_user</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_user_role_865b36ea83504310921ac710feaad35e</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-04-20 07:31:20</sys_updated_on>
+    </sys_user_role>
+</record_update>

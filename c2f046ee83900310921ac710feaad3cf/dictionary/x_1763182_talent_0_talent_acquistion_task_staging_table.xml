@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="12bb0d5b83188710921ac710feaad361" extends="sys_import_set_row" label="Talent Acquistion Task Staging Table" max_length="40" name="x_1763182_talent_0_talent_acquistion_task_staging_table" type="collection"/>
+</database>
