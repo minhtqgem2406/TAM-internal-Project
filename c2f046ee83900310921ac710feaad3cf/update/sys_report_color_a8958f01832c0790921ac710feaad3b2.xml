@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color">
+    <sys_report_color action="INSERT_OR_UPDATE">
+        <color>#6534c7</color>
+        <display>background-color:#6534c7</display>
+        <name>#6534c7</name>
+        <sys_class_name>sys_report_color</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-04-28 02:40:49</sys_created_on>
+        <sys_id>a8958f01832c0790921ac710feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>#6534c7</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_report_color_a8958f01832c0790921ac710feaad3b2</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-04-28 02:40:49</sys_updated_on>
+        <themeable_color/>
+    </sys_report_color>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>COUNT</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="UI14 Yellow">ce56c9b3d7332100fa6c0c12ce610334</color>
+        <color_palette display_value="Greens dark to light (5)">a0f81f19d7100200b96d45a3ce61039f</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field>u_ta_recruit_id.u_assigned_ta</field>
+        <filter/>
+        <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <import_table/>
+        <interval>year</interval>
+        <list_ui_view/>
+        <report display_value="Combo chart">b6c19ea783d8cb10921ac710feaad3de</report>
+        <report_source display_value="ta task open (Talent Acquisition Task)">0ae9deaf835ccb10921ac710feaad37e</report_source>
+        <sequence>2</sequence>
+        <series_name_text>open task</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>source</source_type>
+        <style_config/>
+        <sumfield/>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-04-23 07:42:30</sys_created_on>
+        <sys_id>f6aa52a3839ccb10921ac710feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>open task</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_report_layer_f6aa52a3839ccb10921ac710feaad38a</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-04-23 07:42:30</sys_updated_on>
+        <table>x_1763182_talent_0_talent_acquisition_task</table>
+        <trend_field/>
+        <type>bar</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>

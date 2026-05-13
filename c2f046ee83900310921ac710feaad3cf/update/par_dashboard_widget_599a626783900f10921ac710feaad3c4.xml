@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">9ad22aaf83100f10921ac710feaad307</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":false,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":true,"xAxisHidden":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[{"id":"u_bid_source","label":"BID Source   "},{"id":"u_actual_start_date","label":"Submit Date "}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":2,"headerTitleAlignment":"center","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"filterConfigurations":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"BID Presales ","sourceType":"table","tableOrViewName":"x_1763182_talent_0_bid_presales","filterQuery":"sys_created_by!=nguyenlh","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfYmlkX3ByZXNhbGVzMTc3NjkzMzQxMDM5NQ==","dataCategories":["trend","group","simple"]}],"componentId":"ibj23qfw","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","metrics":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfYmlkX3ByZXNhbGVzMTc3NjkzMzQxMDM5NQ==","id":"ZEdGaWJHVjRYekUzTmpNeE9ESmZkR0ZzWlc1MFh6QmZZbWxrWDNCeVpYTmhiR1Z6TVRjM05qa3pNelF4TURNNU5RPT0xNzc2OTMzNDEzNDQz","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"colorConfig":{"type":"palette","palette":"66a48b81832c0790921ac710feaad38d"},"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfYmlkX3ByZXNhbGVzMTc3NjkzMzQxMDM5NQ==","groupByField":"u_bid_source","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerTitle":"2026 BID/Presales per source ","legendMaxItemWidth":200,"description":null,"rangesConfig":{}}</component_props>
+        <h>21</h>
+        <name>2026 BID/Presales per source</name>
+        <required_translations>[{"comment":"","message":"BID Source   ","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"},{"comment":"","message":"Submit Date ","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"},{"comment":"","message":"BID Presales ","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"},{"comment":"","message":"2026 BID/Presales per source ","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.599a626783900f10921ac710feaad3c4"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-23 08:52:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>599a626783900f10921ac710feaad3c4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>2026 BID/Presales per source</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_widget_599a626783900f10921ac710feaad3c4</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-11 03:08:47</sys_updated_on>
+        <visualization/>
+        <w>22</w>
+        <widget_props/>
+        <x>26</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

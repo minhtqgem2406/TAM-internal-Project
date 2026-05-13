@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="final_result" table="x_1763182_talent_0_bid_presales" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>final_result</element>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:53:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>final_result</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_bid_presales_final_result</sys_update_name>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:53:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed 1st interview</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:02:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fail scan CV - Customer</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:56:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:03:16</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft offer</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:54:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:02:36</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed 2nd interview</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:54:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:54:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboard</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:02:48</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:02:53</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consider</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:02:57</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Candidate cancel process</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:55:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:03:02</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer cancel process</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:56:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:03:07</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>final_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fail scan CV - Internal</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:03:14</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">9ad22aaf83100f10921ac710feaad307</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1jmsnrlrothg2cng6ra4","filterName":"Status for TA Task per TA","filterCustomId":"","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"field":"u_status","table":"x_1763182_talent_0_talent_acquisition_task","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_status","table":"x_1763182_talent_0_talent_acquisition_task","primaryKey":"sys_id"}}],"defaultSelectedItems":[{"id":"open","label":"Open","available":true,"unknown":false,"empty":false}],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"ded2e6af83100f10921ac710feaad3f6","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Status for TA Task per TA","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.40d7e26f83500f10921ac710feaad355"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.9ad22aaf83100f10921ac710feaad307.40d7e26f83500f10921ac710feaad355"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-23 08:39:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40d7e26f83500f10921ac710feaad355</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_widget_40d7e26f83500f10921ac710feaad355</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-11 03:08:47</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <widget_props/>
+        <x>0</x>
+        <y>54</y>
+    </par_dashboard_widget>
+</record_update>
