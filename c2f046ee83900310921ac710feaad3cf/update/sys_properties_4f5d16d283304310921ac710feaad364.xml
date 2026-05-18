@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>BID Presales activity formatter fields</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1763182_talent_0_bid_presales_activity.fields</name>
+        <read_roles/>
+        <suffix>glide.ui.x_1763182_talent_0_bid_presales_activity.fields</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-14 07:15:04</sys_created_on>
+        <sys_id>4f5d16d283304310921ac710feaad364</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.ui.x_1763182_talent_0_bid_presales_activity.fields</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_properties_4f5d16d283304310921ac710feaad364</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-14 07:26:49</sys_updated_on>
+        <type>string</type>
+        <value>u_internal_interview_date,u_activities,u_bid_id,u_bid_source,u_bid_candidate_id,u_client_interview_date,u_client,u_closed_date,sys_created_on,sys_created_by,final_result,u_final_stage,u_reason_rejected,u_bid_recruit_id,u_skills,u_actual_start_date,u_submitter,u_bid_tof,sys_tags,time_of_submitting,sys_updated_on,sys_updated_by,sys_mod_count,u_ytd,u_work_notes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f5d16d283304310921ac710feaad364"/>
+</record_update>

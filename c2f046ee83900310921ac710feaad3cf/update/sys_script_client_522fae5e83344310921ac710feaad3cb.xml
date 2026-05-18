@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>final_result</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(TAM) Handle Field Final Stage Mandatory</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    /**
+	GEM/Duypd - 14.05.2026:
+	TAM/Sprint 3/Story TAM_43
+	When field u_final_result changes value in array VALUE_MANDATORY
+	Use g_form to set field u_final_stage mandatory
+    */
+
+	var VALUE_MANDATORY = ["7"];
+
+	if(VALUE_MANDATORY.includes(newValue)) {
+		g_form.setMandatory("u_final_stage", true);
+	} else {
+		g_form.setMandatory("u_final_stage", false);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-14 08:33:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>522fae5e83344310921ac710feaad3cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(TAM) Handle Field Final Stage Mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_client_522fae5e83344310921ac710feaad3cb</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-14 08:34:44</sys_updated_on>
+        <table>x_1763182_talent_0_bid_presales</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
