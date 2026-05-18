@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b3ba3eea83504310921ac710feaad361" label="Recruitment Request" max_length="40" name="x_1763182_talent_0_recruitment_request" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="b3ba3eea83504310921ac710feaad361" label="Recruitment Request" max_length="40" name="x_1763182_talent_0_recruitment_request" type="collection">
         <element label="TA Assigned" max_length="32" name="u_assigned_ta" reference="sys_user" type="reference"/>
         <element label="Time Of Ticket" max_length="40" name="u_time_of_ticket" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="u_work_notes" type="journal_input"/>
         <element choice="1" label="Location" max_length="40" name="u_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Korea" sequence="600" value="korea"/>
@@ -49,6 +50,7 @@
         <element label="Additional Information" max_length="40" name="u_additional_information" type="string"/>
         <element label="Project" max_length="100" name="u_project" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Recruit ID" max_length="40" name="u_recruit_id" type="string"/>
+        <element attributes="journal_input=true" dependent="u_work_notes" dependent_on_field="u_work_notes" label="Comments and Work notes" max_length="4000" name="u_comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
         <element choice="1" label="Type" max_length="40" name="u_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Tuyển thay thế" sequence="200" value="replacement"/>

@@ -6,7 +6,7 @@
         <created_by_user display_value="Le Hoang Nguyen">de5b98bc839cc310921ac710feaad33d</created_by_user>
         <created_on>2026-04-23 08:18:13</created_on>
         <dashboard display_value="Talent Recruitment Performance Dashboard">56d2e2af83100f10921ac710feaad37f</dashboard>
-        <edit_locked>{"sysId":"bb3b1a36837e3210921ac710feaad3c9","name":"Trinh Thi Nhu Quynh","lockedOn":"1778472867760"}</edit_locked>
+        <edit_locked/>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
         <include_insight_sentiment>false</include_insight_sentiment>
@@ -21,10 +21,10 @@
         <include_trends>true</include_trends>
         <include_widget_notification>true</include_widget_notification>
         <last_deactivated_on/>
-        <last_updated_on>2026-05-11 04:17:37</last_updated_on>
+        <last_updated_on>2026-05-13 07:19:08</last_updated_on>
         <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
-        <refresh_interval/>
+        <refresh_interval>-1</refresh_interval>
         <requested_by_user/>
         <schedule_repetition>false</schedule_repetition>
         <show_ai_insights_panel>false</show_ai_insights_panel>
@@ -35,16 +35,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ded2e6af83100f10921ac710feaad3e8</sys_id>
-        <sys_mod_count>114</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_ded2e6af83100f10921ac710feaad3e8</sys_update_name>
-        <sys_updated_by>quynhttn</sys_updated_by>
-        <sys_updated_on>2026-05-11 04:17:37</sys_updated_on>
-        <updated_by_user display_value="Trinh Thi Nhu Quynh">bb3b1a36837e3210921ac710feaad3c9</updated_by_user>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-13 07:19:09</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin>$now-global-space--sm</widgets_margin>
     </par_dashboard_user_metadata>
