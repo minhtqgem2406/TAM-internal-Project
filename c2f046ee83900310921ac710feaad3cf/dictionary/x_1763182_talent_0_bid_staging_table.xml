@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c95f99db835c8710921ac710feaad366" extends="sys_import_set_row" label="BID Staging Table" max_length="40" name="x_1763182_talent_0_bid_staging_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Interview Date " label="Client Interview Date " max_length="40" name="u_client_interview_date_" type="string"/>
+        <element attributes="import_attribute_name=YTD( Days) " label="YTD( Days) " max_length="40" name="u_ytd__days__" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recruit ID " label="Recruit ID " max_length="40" name="u_recruit_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Final Stage " label="Final Stage " max_length="40" name="u_final_stage_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BID Source " label="BID Source " max_length="40" name="u_bid_source_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Final Result  " label="Final Result  " max_length="40" name="u_final_result__" type="string"/>
+        <element attributes="import_attribute_name=Time Of Submitting (Days)" label="Time Of Submitting (Days)" max_length="40" name="u_time_of_submitting__days_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Name " label="Client Name " max_length="40" name="u_client_name_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Candidate ID " label="Candidate ID " max_length="40" name="u_candidate_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Skill " label="Skill " max_length="40" name="u_skill_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Information " label="Additional Information " max_length="40" name="u_additional_information_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reason for reject  " label="Reason for reject  " max_length="40" name="u_reason_for_reject__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Submit Date " label="Submit Date " max_length="40" name="u_submit_date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Internal Interview Date " label="Internal Interview Date " max_length="40" name="u_internal_interview_date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Submitter Name" label="Submitter Name" max_length="40" name="u_submitter_name" type="string"/>
+    </element>
+</database>
