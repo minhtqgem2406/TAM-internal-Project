@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b8b5f6a78370c350921ac710feaad38f" label="Time Tracking" max_length="40" name="x_1763182_talent_0_time_tracking" type="collection">
+        <element label="PIC" max_length="32" name="u_pic" reference="sys_user" type="reference"/>
+        <element label="Ticket ID" max_length="32" name="u_ticket_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
+        <element display="true" label="Time Track ID" max_length="40" name="u_time_track_id" type="string"/>
+        <element label="Transferred" max_length="32" name="u_transfer_pic" reference="sys_user" type="reference"/>
+        <element label="Total time spent" max_length="40" name="u_total_time" type="integer"/>
+        <element choice="3" label="Transfer reason" max_length="40" name="u_transfer_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TA Resigned" sequence="100" value="ta_resigned"/>
+                <element inactive_on_update="false" label="TA volunteer" sequence="400" value="ta_volunteer"/>
+                <element inactive_on_update="false" label="Low performance" sequence="200" value="low_performance"/>
+                <element inactive_on_update="false" label="Overload" sequence="300" value="overload"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="u_open_date" type="glide_date"/>
+        <element label="End Date" max_length="40" name="u_close_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_pic"/>
+        </index>
+        <index name="index2">
+            <element name="u_ticket_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_transfer_pic"/>
+        </index>
+    </element>
+</database>

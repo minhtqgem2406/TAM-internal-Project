@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c29cca5583340310921ac710feaad375" sys_domain="global" table="x_1763182_talent_0_bid_presales" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 03:26:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca9cca5583340310921ac710feaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1763182_talent_0_bid_presales" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">c29cca5583340310921ac710feaad375</sys_ui_form>
+            <sys_ui_section caption="Case Overview" display_value="Case Overview" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">89f14b3e83900310921ac710feaad32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 03:26:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-05-15 02:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db3b22e683bc0710921ac710feaad3c8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1763182_talent_0_bid_presales" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">c29cca5583340310921ac710feaad375</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">8b3b22e683bc0710921ac710feaad3b4</sys_ui_section>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-05-15 02:58:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 03:26:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d69cca5583340310921ac710feaad37d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1763182_talent_0_bid_presales" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">c29cca5583340310921ac710feaad375</sys_ui_form>
+            <sys_ui_section caption="Candidate" display_value="Candidate" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">0a9cca5583340310921ac710feaad371</sys_ui_section>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-05-15 02:58:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 03:34:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf9e42d983340310921ac710feaad35d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1763182_talent_0_bid_presales" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">c29cca5583340310921ac710feaad375</sys_ui_form>
+            <sys_ui_section caption="Interview Progress" display_value="Interview Progress" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">839e42d983340310921ac710feaad359</sys_ui_section>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-05-15 02:58:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 03:37:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df2fc61d83340310921ac710feaad3a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1763182_talent_0_bid_presales" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">c29cca5583340310921ac710feaad375</sys_ui_form>
+            <sys_ui_section caption="Time Tracking" display_value="Time Tracking" name="x_1763182_talent_0_bid_presales" sys_domain="global" view="Default view">d72fc61d83340310921ac710feaad37b</sys_ui_section>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-05-15 02:58:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1763182_talent_0_bid_presales</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 03:26:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c29cca5583340310921ac710feaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1763182_talent_0_bid_presales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c29cca5583340310921ac710feaad375</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 03:26:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

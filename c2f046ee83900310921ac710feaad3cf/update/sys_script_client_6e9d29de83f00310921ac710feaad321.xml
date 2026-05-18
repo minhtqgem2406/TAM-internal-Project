@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TAM_Checkin Mandatory &amp; Readonly </name>
+        <order/>
+        <script><![CDATA[/**
+ * onLoad Set mandatory and read-only fields on Checkin form
+ * 
+ * @author GEM/Quynhttn - 14.05.2026
+ * @returns {none}
+ */
+function onLoad() {
+   // Configure field properties
+   var fieldConfigs = [
+		{
+			fieldName: 'u_checkin_date',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_recruit_id',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_bid_id',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_office_email',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_channel',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_candidate_id',
+			isMandatory: true,
+			isReadOnly: false
+		},
+		{
+			fieldName: 'u_checkin_id',
+			isMandatory: false,
+			isReadOnly: true
+		},
+		{
+			fieldName: 'u_candidate_email',
+			isMandatory: false,
+			isReadOnly: true
+		},
+		{
+			fieldName: 'u_candidate_name',
+			isMandatory: false,
+			isReadOnly: true
+		},
+		{
+			fieldName: 'u_candidate_phone',
+			isMandatory: false,
+			isReadOnly: true
+		},
+		{
+			fieldName: 'u_tof',
+			isMandatory: false,
+			isReadOnly: true
+		},
+		{
+			fieldName: 'u_tof_okr',
+			isMandatory: false,
+			isReadOnly: true
+		}
+	];
+	
+	// Apply mandatory and read-only settings
+	fieldConfigs.forEach(function(field) {
+		g_form.setMandatory(field.fieldName, field.isMandatory);
+		g_form.setReadOnly(field.fieldName, field.isReadOnly);
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-14 04:07:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e9d29de83f00310921ac710feaad321</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TAM_Checkin Mandatory &amp; Readonly </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_client_6e9d29de83f00310921ac710feaad321</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-18 04:51:38</sys_updated_on>
+        <table>x_1763182_talent_0_checkins</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

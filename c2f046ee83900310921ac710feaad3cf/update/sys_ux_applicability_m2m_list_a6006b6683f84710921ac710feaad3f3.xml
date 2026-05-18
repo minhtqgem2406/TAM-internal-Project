@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="TAM Page Workspace">57e1c76683344710921ac710feaad359</applicability>
+        <list display_value="All">7c994b1e83f84310921ac710feaad3e4</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-15 06:43:15</sys_created_on>
+        <sys_id>a6006b6683f84710921ac710feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_a6006b6683f84710921ac710feaad3f3</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-15 06:43:15</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

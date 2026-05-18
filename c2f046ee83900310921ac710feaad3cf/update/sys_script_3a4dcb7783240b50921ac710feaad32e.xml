@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1763182_talent_0_checkins</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1763182_talent_0_checkins">u_checkin_dateVALCHANGES^EQ<item endquery="false" field="u_checkin_date" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update &amp;  Auto-populate TOF and OKR</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/**
+ * GEM/Nguyenlh - 15.05.2026:
+ * TAM/Sprint 3/Story TAM_46 
+ * Calculates TOF (Time of Fill) and assigns OKR category based on day ranges
+ */
+(function executeRule(current, previous /*null when async*/ ) {
+
+    var recruitmentId = current.u_recruit_id;
+
+    if (recruitmentId) {
+        var recruitmentGr = new GlideRecord('x_1763182_talent_0_recruitment_request');
+
+        if (recruitmentGr.get(recruitmentId)) {
+
+            var checkinDate = new GlideDateTime(current.u_checkin_date);
+            var startDate = new GlideDateTime(recruitmentGr.u_start_date);
+
+            if (checkinDate && startDate) {
+                var duration = GlideDateTime.subtract(startDate, checkinDate);
+                var MS_PER_DAY = 24 * 60 * 60 * 1000;
+                var totalDaysElapsed = Math.floor(durationDifference.getNumericValue() / MS_PER_DAY);
+
+                var okrCategory = "";
+
+                switch (true) {
+                    case (totalDaysElapsed <= 45):
+                        okrCategory = "<= 45 days";
+                        break;
+                    case (totalDaysElapsed <= 50):
+                        okrCategory = "<= 50 days";
+                        break;
+                    case (totalDaysElapsed <= 60):
+                        okrCategory = "<= 60 days";
+                        break;
+                    case (totalDaysElapsed <= 75):
+                        okrCategory = "<= 75 days";
+                        break;
+                    default:
+                        okrCategory = "> 75 days";
+                        break;
+                }
+
+                current.u_tof = totalDaysElapsed;
+                current.u_tof_okr = okrCategory;
+
+                current.update();
+            }
+        } else {
+            gs.error("TOF Calculation: Linked recruitment record not found for ID: " + recruitmentId);
+        }
+    } else {
+        gs.warn("TOF Calculation: Recruit ID is empty on record " + current.getUniqueValue());
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-05-06 16:47:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a4dcb7783240b50921ac710feaad32e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update &amp;  Auto-populate TOF and OKR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_3a4dcb7783240b50921ac710feaad32e</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-05-15 04:53:54</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a4dcb7783240b50921ac710feaad32e"/>
+</record_update>

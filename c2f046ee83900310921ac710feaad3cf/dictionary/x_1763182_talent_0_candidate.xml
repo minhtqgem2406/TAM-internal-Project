@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="1db08f2e83904310921ac710feaad3fe" label="Candidate" max_length="40" name="x_1763182_talent_0_candidate" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Phone Number" max_length="11" name="u_phone_number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lose" sequence="500" value="lose"/>
+                <element inactive_on_update="false" label="Done" sequence="400" value="done"/>
+                <element inactive_on_update="false" label="Cancel" sequence="200" value="cancel"/>
+                <element inactive_on_update="false" label="Offer done" sequence="300" value="offer_done"/>
+                <element inactive_on_update="false" label="Open" sequence="100" value="open"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Gender" max_length="40" name="u_gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Nam" sequence="10" value="male"/>
+                <element inactive_on_update="false" label="Nữ" sequence="20" value="female"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Email" max_length="100" name="u_email" type="email"/>
+        <element attributes="edge_encryption_enabled=true" label="Worknotes" max_length="4000" name="worknotes" type="journal_input"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Username" max_length="50" name="u_username" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Candidate Number" max_length="12" name="u_candidate_id" type="string" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="u_email"/>
+        </index>
+    </element>
+</database>

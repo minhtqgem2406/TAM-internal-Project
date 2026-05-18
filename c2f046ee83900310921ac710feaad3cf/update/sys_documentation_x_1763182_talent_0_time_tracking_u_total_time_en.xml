@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_total_time" label="Total time spent" language="en" table="x_1763182_talent_0_time_tracking">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_total_time</element>
+            <help/>
+            <hint/>
+            <label>Total time spent</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_time_tracking</name>
+            <plural>Total time spents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-05-18 06:24:41</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total time spent</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_documentation_x_1763182_talent_0_time_tracking_u_total_time_en</sys_update_name>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-05-18 06:24:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

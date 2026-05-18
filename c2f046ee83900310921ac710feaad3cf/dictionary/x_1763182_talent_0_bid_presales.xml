@@ -1,8 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f98af2ea83504310921ac710feaad3c1" max_length="40" name="x_1763182_talent_0_bid_presales" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="f98af2ea83504310921ac710feaad3c1" label="BID Presales" max_length="40" name="x_1763182_talent_0_bid_presales" type="collection">
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true,ts_weight=50" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="BID Number " max_length="40" name="u_bid_id" type="string" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Candidate Phone Number" max_length="11" name="candidate_phone_number" type="string"/>
+        <element choice="1" label="TOF" max_length="200" name="u_bid_tof" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="15 - 30 days" sequence="500" value="15_to_30_days"/>
+                <element inactive_on_update="false" label="1 - 3 days" sequence="200" value="1_to_3_days"/>
+                <element inactive_on_update="false" label="&lt;1 day" sequence="100" value="less_than_1"/>
+                <element inactive_on_update="false" label="&gt; 30 days" sequence="600" value="more_than_30"/>
+                <element inactive_on_update="false" label="3 - 5 days" sequence="300" value="3_to_5_days"/>
+                <element inactive_on_update="false" label="7 - 15 days" sequence="450" value="7_to_15_days"/>
+                <element inactive_on_update="false" label="5 - 7 days" sequence="400" value="5_to_7_days"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Activities" max_length="4000" name="u_activities" type="journal_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Client Interview Date  " max_length="40" name="u_client_interview_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Duration of ticket" max_length="40" name="u_duration_of_ticket" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Submit Date " max_length="40" name="u_actual_start_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Work notes" max_length="4000" name="u_work_notes" type="journal_input"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Recruit ID " max_length="32" name="u_bid_recruit_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Candidate ID   " max_length="32" name="u_bid_candidate_id" reference="x_1763182_talent_0_candidate" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Candidate Email" max_length="40" name="u_candidate_email" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Skills" max_length="40" name="u_skills" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PMO" sequence="0" value="pmo"/>
+                <element inactive_on_update="false" label="Python" value="python"/>
+                <element inactive_on_update="false" label="Mobile" value="mobile"/>
+                <element inactive_on_update="false" label="FE" value="fe"/>
+                <element inactive_on_update="false" label="Data &amp; AI" sequence="0" value="data_ai"/>
+                <element inactive_on_update="false" label="NodeJS" value="nodejs"/>
+                <element inactive_on_update="false" label="Korean" value="korean"/>
+                <element inactive_on_update="false" label="AI" value="ai"/>
+                <element inactive_on_update="false" label="Mendix" value="mendix"/>
+                <element inactive_on_update="false" label="Golang" value="golang"/>
+                <element inactive_on_update="false" label="BA" value="ba"/>
+                <element inactive_on_update="false" label="QA/QC" value="qaqc"/>
+                <element inactive_on_update="false" label="PM" value="pm"/>
+                <element inactive_on_update="false" label="Java" value="java"/>
+                <element inactive_on_update="false" label="Unity" value="unity"/>
+                <element inactive_on_update="false" label="UX/UI" value="uxui"/>
+                <element inactive_on_update="false" label=".NET" value="net"/>
+                <element inactive_on_update="false" label="Sales/AM" value="sales_am"/>
+                <element inactive_on_update="false" label="Fullstack" sequence="0" value="fullstack"/>
+                <element inactive_on_update="false" label="SAP" sequence="0" value="sap"/>
+                <element inactive_on_update="false" label="Data" value="data"/>
+                <element inactive_on_update="false" label="Fullstack JS" value="fullstack_js"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Client Name " max_length="100" name="u_client" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Time of submitting" max_length="40" name="time_of_submitting" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Close date  " max_length="40" name="u_closed_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label=" Internal Interview Date  " max_length="40" name="u_internal_interview_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Final Result    " max_length="40" name="final_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fail scan CV - Internal" value="9"/>
+                <element inactive_on_update="false" label="Fail scan CV - Customer" value="10"/>
+                <element inactive_on_update="false" label="Candidate cancel process" value="7"/>
+                <element inactive_on_update="false" label="Onboard" value="4"/>
+                <element inactive_on_update="false" label="Failed 1st interview" value="1"/>
+                <element inactive_on_update="false" label="Waiting" value="5"/>
+                <element inactive_on_update="false" label="Consider" value="6"/>
+                <element inactive_on_update="false" label="Draft offer" value="2"/>
+                <element inactive_on_update="false" label="Customer cancel process" value="8"/>
+                <element inactive_on_update="false" label="Failed 2nd interview" value="3"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Reason for reject   " max_length="100" name="u_reason_rejected" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="BID Source   " max_length="40" name="u_bid_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Vendor" value="vendor"/>
+                <element inactive_on_update="false" label="Recruiter" value="recruiter"/>
+                <element inactive_on_update="false" label="Sales" value="sales"/>
+                <element inactive_on_update="false" label="DIV" value="div"/>
+                <element inactive_on_update="false" label="Headhunt" value="headhunt"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="YTD( Days)  " max_length="40" name="u_ytd" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Final Stage   " max_length="40" name="u_final_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offered" value="5"/>
+                <element inactive_on_update="false" label="Sent CV to Delivery" value="7"/>
+                <element inactive_on_update="false" label="2nd Client Interview" value="2"/>
+                <element inactive_on_update="false" label="Internal Interview" value="1"/>
+                <element inactive_on_update="false" label="Sent CV to customer" value="4"/>
+                <element inactive_on_update="false" label="3rd Client Interview" value="3"/>
+                <element inactive_on_update="false" label="Cover CV to submit Delivery" value="6"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Candidate Username" max_length="40" name="u_candidate_username" type="string"/>
+        <index name="index">
+            <element name="u_bid_candidate_id"/>
+        </index>
         <index name="index2">
             <element name="u_bid_recruit_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_bid_source"/>
+        </index>
+        <index name="index4">
+            <element name="u_submitter"/>
         </index>
     </element>
 </database>

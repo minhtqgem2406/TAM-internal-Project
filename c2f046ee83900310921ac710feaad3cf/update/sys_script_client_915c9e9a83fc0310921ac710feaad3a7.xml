@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_phone_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(TAM) Set Phone Number field is Number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    /**
+    GEM/Nguyenlh - 14.05.2026:
+    TAM/Sprint 3/Story TAM_45
+    When field changes, configure acceptance criteria handling:
+    Check if the input is a number; if not, clear the field.
+    */
+
+    if (isLoading || newValue === '') {
+        return;
+    }
+	// Defines a Regular Expression to validate Vietnamese phone formats:
+    // ^      : Start of the string
+    // (0[3|5|7|8|9]) : Must start with 0, followed by 3, 5, 7, 8, or 9
+    // +      : Matches the previous group (the prefix)
+    // ([0-9]{8}) : Must be followed by exactly 8 digits (totaling 10 digits)
+    // $      : End of the string
+    var regexp = /^(0[3|5|7|8|9])+([0-9]{8})$/;
+    if (!regexp.test(newValue)) {// Tests if the 'newValue' entered by the user fails the Regex pattern
+        g_form.setValue('u_phone_number', ''); // If the value is invalid, clear the 'u_phone_number' field
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-05-14 07:13:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>915c9e9a83fc0310921ac710feaad3a7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>(TAM) Set Phone Number field is Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_client_915c9e9a83fc0310921ac710feaad3a7</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-05-14 07:41:23</sys_updated_on>
+        <table>x_1763182_talent_0_candidate</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

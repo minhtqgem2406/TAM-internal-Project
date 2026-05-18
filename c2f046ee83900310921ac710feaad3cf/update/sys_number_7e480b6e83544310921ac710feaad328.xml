@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1763182_talent_0_candidate">x_1763182_talent_0_candidate</category>
+        <maximum_digits>7</maximum_digits>
+        <number>10000</number>
+        <prefix>CAN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-20 08:35:48</sys_created_on>
+        <sys_id>7e480b6e83544310921ac710feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAN</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_number_7e480b6e83544310921ac710feaad328</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-20 08:35:48</sys_updated_on>
+    </sys_number>
+</record_update>

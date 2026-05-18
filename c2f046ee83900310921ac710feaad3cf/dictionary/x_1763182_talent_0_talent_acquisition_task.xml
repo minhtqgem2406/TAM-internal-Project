@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f523076e83904310921ac710feaad37b" max_length="40" name="x_1763182_talent_0_talent_acquisition_task" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f523076e83904310921ac710feaad37b" label="Talent Acquisition Task" max_length="40" name="x_1763182_talent_0_talent_acquisition_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true,ts_weight=50" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="TA Number  " max_length="40" name="u_ta_id" type="string" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Additional Information " max_length="100" name="u_additional_information" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Actual Start Date   " max_length="40" name="actual_start_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Status " max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offer done" value="offer_done"/>
+                <element inactive_on_update="false" label="Done" value="done"/>
+                <element inactive_on_update="false" label="Cancel" value="cancel"/>
+                <element inactive_on_update="false" label="Lose" value="lose"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+            </choice>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Recruit ID " max_length="32" name="u_ta_recruit_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Position   " max_length="100" name="position" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Channel   " max_length="40" name="u_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TopCV" value="topcv"/>
+                <element inactive_on_update="false" label="TA hunt" value="ta_hunt"/>
+                <element inactive_on_update="false" label="Khác" sequence="0" value="others"/>
+                <element inactive_on_update="false" label="Headhunt" sequence="0" value="headhunt"/>
+                <element inactive_on_update="false" label="Glints" sequence="0" value="glints"/>
+                <element inactive_on_update="false" label="Nội bộ công ty" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Vendor" value="vendor"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Actual End Date  " max_length="40" name="u_actual_end_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_channel"/>
+        </index>
         <index name="index2">
             <element name="u_ta_recruit_id"/>
         </index>

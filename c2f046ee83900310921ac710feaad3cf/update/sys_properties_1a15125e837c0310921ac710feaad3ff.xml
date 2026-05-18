@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Candidate activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1763182_talent_0_candidate_activity.fields</name>
+        <read_roles/>
+        <suffix>x_1763182_talent_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-05-14 06:37:07</sys_created_on>
+        <sys_id>1a15125e837c0310921ac710feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_1763182_talent_0_candidate_activity.fields</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_properties_1a15125e837c0310921ac710feaad3ff</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-05-14 06:37:07</sys_updated_on>
+        <type>string</type>
+        <value>worknotes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a15125e837c0310921ac710feaad3ff"/>
+</record_update>

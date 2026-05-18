@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_1763182_talent_0_checkins" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_1763182_talent_0_checkins</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:48:59</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_checkins_u_status</sys_update_name>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:48:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:52:50</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancel</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:52:40</sys_updated_on>
+            <value>cancel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer Done</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:53:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:53:06</sys_updated_on>
+            <value>offer_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Done</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:53:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:53:23</sys_updated_on>
+            <value>done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lose</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 07:53:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 07:53:40</sys_updated_on>
+            <value>lose</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Không Check-in</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-22 08:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:21:09</sys_updated_on>
+            <value>not_check_in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Đã Check-in</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_checkins</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-22 08:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:21:13</sys_updated_on>
+            <value>checked_in</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

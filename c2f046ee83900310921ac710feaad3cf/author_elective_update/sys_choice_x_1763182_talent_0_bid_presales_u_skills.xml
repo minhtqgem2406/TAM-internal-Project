@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_skills" table="x_1763182_talent_0_bid_presales" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_skills</element>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:43:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_skills</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_bid_presales_u_skills</sys_update_name>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:43:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AI</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:45:45</sys_updated_on>
+            <value>ai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BA</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:43:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:43:31</sys_updated_on>
+            <value>ba</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:45:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:45:09</sys_updated_on>
+            <value>data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FE</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:44:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:44:29</sys_updated_on>
+            <value>fe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fullstack JS</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:46:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 03:54:38</sys_updated_on>
+            <value>fullstack_js</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Golang</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:44:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:44:47</sys_updated_on>
+            <value>golang</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Java</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:43:44</sys_updated_on>
+            <value>java</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Korean</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:45:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:45:23</sys_updated_on>
+            <value>korean</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mendix</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:46:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:46:17</sys_updated_on>
+            <value>mendix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:45:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:45:35</sys_updated_on>
+            <value>mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.NET</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:44:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:46:00</sys_updated_on>
+            <value>net</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NodeJS</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:46:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:46:32</sys_updated_on>
+            <value>nodejs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PM</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:43:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:43:52</sys_updated_on>
+            <value>pm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Python</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:44:37</sys_updated_on>
+            <value>python</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QA/QC</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:45:01</sys_updated_on>
+            <value>qaqc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales/AM</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:44:19</sys_updated_on>
+            <value>sales_am</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unity</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:46:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:46:38</sys_updated_on>
+            <value>unity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UX/UI</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-20 07:46:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:46:25</sys_updated_on>
+            <value>uxui</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data &amp; AI</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-22 08:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:45:41</sys_updated_on>
+            <value>data_ai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fullstack</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-22 08:50:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:45:46</sys_updated_on>
+            <value>fullstack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PMO</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-22 08:50:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:45:50</sys_updated_on>
+            <value>pmo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_skills</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAP</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-04-22 08:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-04-22 10:45:54</sys_updated_on>
+            <value>sap</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

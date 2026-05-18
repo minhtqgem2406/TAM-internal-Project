@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(TAM)TA Task Field Mandatory &amp; Readonly </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	/**
+	GEM/Nguyenlh - 14.05.2026:
+	TAM/Sprint 3/Story TAM_46
+	When table loading, configure acceptance criteria handling:
+	Use g_form to set required fields mandatory and readonly.
+    */
+   g_form.setReadOnly('u_ta_id', true);
+   g_form.setReadOnly('position', true);
+  
+   g_form.setMandatory('u_ta_recruit_id', true);
+   g_form.setMandatory('u_channel', true);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-05-14 10:19:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d237fa9a83b44310921ac710feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(TAM)TA Task Field Mandatory &amp; Readonly </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_client_d237fa9a83b44310921ac710feaad386</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-05-14 10:19:47</sys_updated_on>
+        <table>x_1763182_talent_0_talent_acquisition_task</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

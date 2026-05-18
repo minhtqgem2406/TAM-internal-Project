@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1763182_talent_0.TAM Page Workspace</api_name>
+        <description>TAM Page Workspace - define role can access page in TAM Workspace</description>
+        <name>TAM Page Workspace</name>
+        <role_names>x_1763182_talent_0.ta specialist</role_names>
+        <roles name="x_1763182_talent_0.ta specialist">06f086ee83900310921ac710feaad346</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-15 04:32:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57e1c76683344710921ac710feaad359</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TAM Page Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ux_applicability_57e1c76683344710921ac710feaad359</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-15 04:41:14</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

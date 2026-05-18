@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_position" table="x_1763182_talent_0_recruitment_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_position</element>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_position</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_recruitment_request_u_position</sys_update_name>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 07:41:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bridge Engineer</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:15</sys_updated_on>
+            <value>bridge_engineer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dev</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:21</sys_updated_on>
+            <value>dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR Specialist</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:27</sys_updated_on>
+            <value>hr_specialist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intern</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:33</sys_updated_on>
+            <value>intern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:38</sys_updated_on>
+            <value>sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tester</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:41:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:43</sys_updated_on>
+            <value>tester</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 07:42:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:09:49</sys_updated_on>
+            <value>vendor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

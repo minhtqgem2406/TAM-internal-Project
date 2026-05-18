@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1763182_talent_0.TAMUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TAMUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TAMUtils = Class.create();
+TAMUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	/**
+	 * getTableInfomation Retrieve required field values from 
+	 * target table by record sys_id
+	 * 
+	 * @author GEM/Quynhttn - 15.05.2026
+	 * @returns {string|null} JSON string containing field values 
+	 * or null when validation fails
+	 */
+	getTableInfomation: function() {
+		// Get value from parameter for client script (TAM_Checkin Candidate Auto Populate)
+		var tableName = this.getParameter('sysparm_table_name');
+		var fieldReturn = this.getParameter('sysparm_field_return');
+		var recordId = this.getParameter('sysparm_record_id');
+
+		// Check empty of parameter 
+		if (!tableName || !fieldReturn || !recordId) {
+			return null;
+		}
+
+		// GlideRecord of target table 
+		var grTable = new GlideRecord(tableName);
+		var result = {};
+
+		// Get field value of target table
+		if(grTable.get(recordId)) {
+			var fieldReturnArray = fieldReturn.split(',');
+			for (var i = 0; i < fieldReturnArray.length; i++) {
+				var fieldName = fieldReturnArray[i];
+				result[fieldName] = grTable.getValue(fieldName);
+			}
+		}
+
+		//Validate return object
+		var checkValidate = Object.keys(result).length;
+		if (checkValidate > 0) {
+			return JSON.stringify(result);
+		}
+		return null;
+	},
+    type: 'TAMUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-15 10:28:45</sys_created_on>
+        <sys_id>d8dbc0f683748710921ac710feaad303</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>TAMUtils</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_include_d8dbc0f683748710921ac710feaad303</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-18 04:31:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

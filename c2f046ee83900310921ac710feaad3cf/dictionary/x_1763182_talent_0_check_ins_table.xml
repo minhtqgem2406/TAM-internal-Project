@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7d11a513839c8710921ac710feaad344" extends="sys_import_set_row" label="Check-ins table" max_length="40" name="x_1763182_talent_0_check_ins_table" type="collection">
+        <element attributes="import_attribute_name=TOF " label="TOF " max_length="40" name="u_tof_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Office Email " label="Office Email " max_length="40" name="u_office_email_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status " label="Status " max_length="40" name="u_status_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TOF (OKR) " label="TOF (OKR) " max_length="40" name="u_tof__okr__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Information " label="Additional Information " max_length="40" name="u_additional_information_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recruit ID " label="Recruit ID " max_length="40" name="u_recruit_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Channel " label="Channel " max_length="40" name="u_channel_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Checkin Date " label="Checkin Date " max_length="40" name="u_checkin_date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Candidate ID " label="Candidate ID " max_length="40" name="u_candidate_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BID Number " label="BID Number " max_length="40" name="u_bid_number_" type="string"/>
+    </element>
+</database>

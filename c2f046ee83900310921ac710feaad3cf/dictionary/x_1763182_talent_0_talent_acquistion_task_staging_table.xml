@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="12bb0d5b83188710921ac710feaad361" extends="sys_import_set_row" label="Talent Acquistion Task Staging Table" max_length="40" name="x_1763182_talent_0_talent_acquistion_task_staging_table" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="12bb0d5b83188710921ac710feaad361" extends="sys_import_set_row" label="Talent Acquistion Task Staging Table" max_length="40" name="x_1763182_talent_0_talent_acquistion_task_staging_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status " label="Status " max_length="40" name="u_status_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Actual End Date " label="Actual End Date " max_length="40" name="u_actual_end_date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Channel " label="Channel " max_length="40" name="u_channel_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Actual Start Date " label="Actual Start Date " max_length="40" name="u_actual_start_date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Information " label="Additional Information " max_length="143" name="u_additional_information_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position " label="Position " max_length="40" name="u_position_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recruit ID   " label="Recruit ID   " max_length="40" name="u_recruit_id___" type="string"/>
+    </element>
 </database>

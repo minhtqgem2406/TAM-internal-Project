@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_candidate_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TAM_Checkin Candidate Auto Populate</name>
+        <order/>
+        <script><![CDATA[/**
+ * onChange Retrieve and populate candidate information into Checkin form fields
+ * 
+ * @author GEM/Quynhttn - 14.05.2026
+ * @param {GlideFormControl} control 
+ * @param {string} oldValue
+ * @param {string} newValue
+ * @param {boolean} isLoading
+ * @param {boolean} isTemplate
+ * @returns {none}
+ */
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   // Stop script when form is loading or candidate field is empty
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   // Call Script Include to retrieve candidate information
+   var gaCheckin = new GlideAjax('TAMUtils');
+   gaCheckin.addParam('sysparm_name', 'getTableInfomation');
+   gaCheckin.addParam('sysparm_table_name', 'x_1763182_talent_0_candidate');
+   gaCheckin.addParam('sysparm_field_return', 'u_email,u_username,u_phone_number');
+   gaCheckin.addParam('sysparm_record_id', newValue);
+   gaCheckin.getXMLAnswer(poplulateCandidateInformation);
+}
+
+/**
+ * poplulateCandidateInformation Populate candidate information into Checkin form fields
+ *
+ * @author GEM/Quynhttn - 14.05.2026
+ * @param {string} response - JSON string returned from Script Include
+ * @returns {none}
+ */
+function poplulateCandidateInformation(response) {
+	try {
+		// Convert JSON string to object
+        var result = JSON.parse(response);
+
+        g_form.setValue('u_candidate_email', result.u_username);
+        g_form.setValue('u_candidate_name', result.u_email);
+        g_form.setValue('u_candidate_phone', result.u_phone_number);
+    } catch (e) {
+        g_form.addErrorMessage('Populate candidate information failed');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-14 04:45:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19c3fd5a83740310921ac710feaad318</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>TAM_Checkin Candidate Auto Populate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_client_19c3fd5a83740310921ac710feaad318</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-18 04:46:10</sys_updated_on>
+        <table>x_1763182_talent_0_checkins</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

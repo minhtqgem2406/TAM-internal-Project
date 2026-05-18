@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_1763182_talent_0_candidate" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_1763182_talent_0_candidate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:58:30</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_candidate_u_status</sys_update_name>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:58:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_candidate</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:58:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:58:30</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancel</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_candidate</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:58:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:58:46</sys_updated_on>
+            <value>cancel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer done</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_candidate</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:59:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:59:09</sys_updated_on>
+            <value>offer_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Done</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_candidate</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:59:22</sys_updated_on>
+            <value>done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lose</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_candidate</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>nguyenlh</sys_created_by>
+            <sys_created_on>2026-04-21 03:59:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nguyenlh</sys_updated_by>
+            <sys_updated_on>2026-04-21 03:59:56</sys_updated_on>
+            <value>lose</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

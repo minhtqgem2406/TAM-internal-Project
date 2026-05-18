@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Talent Recruitment Performance Dashboard">56d2e2af83100f10921ac710feaad37f</dashboard>
+        <group display_value="TA Specialist" name="TA Specialist">2b2598c383584310921ac710feaad34d</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-15 08:30:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3198332a83708710921ac710feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>56d2e2af83100f10921ac710feaad37f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_permission_3198332a83708710921ac710feaad344</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-15 08:30:18</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
