@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="1db08f2e83904310921ac710feaad3fe" max_length="40" name="x_1763182_talent_0_candidate" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Worknotes" max_length="4000" name="worknotes" type="journal_input"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Username" max_length="50" name="u_username" type="string"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Candidate Number" max_length="12" name="u_candidate_id" type="string" use_dynamic_default="true"/>
     </element>

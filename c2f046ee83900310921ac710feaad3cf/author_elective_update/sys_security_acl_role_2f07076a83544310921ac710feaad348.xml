@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-20 08:22:29</sys_created_on>
+        <sys_id>2f07076a83544310921ac710feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0_candidate.x_1763182_talent_0.candidate_user</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_security_acl display_value="x_1763182_talent_0_candidate">eb07076a83544310921ac710feaad33e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2f07076a83544310921ac710feaad348</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-20 08:22:29</sys_updated_on>
+        <sys_user_role display_value="x_1763182_talent_0.candidate_user" name="x_1763182_talent_0.candidate_user">1b07c36a83544310921ac710feaad318</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>sys_security_acl_role_2f07076a83544310921ac710feaad348</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>nguyenlh</sys_created_by><sys_created_on>2026-04-20 08:22:29</sys_created_on><sys_id>2f07076a83544310921ac710feaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1763182_talent_0_candidate.x_1763182_talent_0.candidate_user</sys_name><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_security_acl display_value="x_1763182_talent_0_candidate">eb07076a83544310921ac710feaad33e</sys_security_acl><sys_update_name>sys_security_acl_role_2f07076a83544310921ac710feaad348</sys_update_name><sys_updated_by>nguyenlh</sys_updated_by><sys_updated_on>2026-04-20 08:22:29</sys_updated_on><sys_user_role display_value="x_1763182_talent_0.candidate_user" name="x_1763182_talent_0.candidate_user">1b07c36a83544310921ac710feaad318</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-774092037</payload_hash>
+        <record_name>x_1763182_talent_0_candidate.x_1763182_talent_0.candidate_user</record_name>
+        <reverted_from/>
+        <source>b0af7a6a83904310921ac710feaad369</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-20 08:22:29</sys_created_on>
+        <sys_id>6707076a83544310921ac710feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19da9fbe0ac0000001</sys_recorded_at>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-20 08:22:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2707076a5f544310a42a98bb19049355</update_guid>
+        <update_guid_history>2707076a5f544310a42a98bb19049355:-774092037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1763182_talent_0_candidate.x_1763182_talent_0.candidate_user">f6e813fa83580310921ac710feaad3b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-04-21 04:19:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00d62a9124744e918009b297a619cd89</sys_id>
+        <sys_metadata>2f07076a83544310921ac710feaad348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0_candidate.x_1763182_talent_0.candidate_user</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent display_value="x_1763182_talent_0_candidate">eb07076a83544310921ac710feaad33e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2f07076a83544310921ac710feaad348</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2f07076a83544310921ac710feaad348">6707076a83544310921ac710feaad356</sys_update_version>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-04-21 04:19:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
