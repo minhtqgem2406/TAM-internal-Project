@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-07 07:15:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81da5ecc83b04310921ac710feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>m2m_app_config_theme_81da5ecc83b04310921ac710feaad3d0</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-07 07:15:50</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="TAM Workspace">e63e5ecf83eccb10921ac710feaad329</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>m2m_app_config_theme_81da5ecc83b04310921ac710feaad3d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>dungvu.dev</sys_created_by><sys_created_on>2026-05-07 07:15:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>81da5ecc83b04310921ac710feaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>m2m_app_config_theme_81da5ecc83b04310921ac710feaad3d0</sys_update_name><sys_updated_by>dungvu.dev</sys_updated_by><sys_updated_on>2026-05-07 07:15:50</sys_updated_on><theme/><ux_app_configuration display_value="TAM Workspace">e63e5ecf83eccb10921ac710feaad329</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-535908336</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>782e3bf683904310921ac710feaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-07 07:15:50</sys_created_on>
+        <sys_id>45da5ecc83b04310921ac710feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e014af79c0000001</sys_recorded_at>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-07 07:15:50</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>05da5ecc4eb043106e6fa8fa99e642d4</update_guid>
+        <update_guid_history>05da5ecc4eb043106e6fa8fa99e642d4:-535908336</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3feadecc83b04310921ac710feaad396</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-07 07:16:18</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>0560fc2734ac47aa89f93c2d1d608059</sys_id>
+        <sys_metadata>81da5ecc83b04310921ac710feaad3d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_81da5ecc83b04310921ac710feaad3d0</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_81da5ecc83b04310921ac710feaad3d0">45da5ecc83b04310921ac710feaad3d5</sys_update_version>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-07 07:16:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

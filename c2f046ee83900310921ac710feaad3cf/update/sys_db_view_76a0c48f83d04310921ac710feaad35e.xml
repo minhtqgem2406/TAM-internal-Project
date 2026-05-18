@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label/>
+        <name>x_1763182_talent_0_ta_task</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-04-21 07:13:13</sys_created_on>
+        <sys_id>76a0c48f83d04310921ac710feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0_ta_task</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_db_view_76a0c48f83d04310921ac710feaad35e</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-04-21 07:13:13</sys_updated_on>
+    </sys_db_view>
+</record_update>

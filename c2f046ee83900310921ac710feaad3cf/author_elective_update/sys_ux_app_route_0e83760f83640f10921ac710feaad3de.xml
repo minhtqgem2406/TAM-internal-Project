@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="TAM Workspace">e63e5ecf83eccb10921ac710feaad329</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>TAM List</name>
+        <optional_parameters>listId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>tam-list</route_type>
+        <screen_type display_value="TAM List">8a837e8b83640f10921ac710feaad3b4</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 06:29:50</sys_created_on>
+        <sys_id>0e83760f83640f10921ac710feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAM List</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ux_app_route_0e83760f83640f10921ac710feaad3de</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-04 06:29:50</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=0e83760f83640f10921ac710feaad3de"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>sys_ux_app_route_0e83760f83640f10921ac710feaad3de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="TAM Workspace">e63e5ecf83eccb10921ac710feaad329</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>TAM List</name><optional_parameters>listId</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>tam-list</route_type><screen_type display_value="TAM List">8a837e8b83640f10921ac710feaad3b4</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>dungvu.dev</sys_created_by><sys_created_on>2026-05-04 06:29:50</sys_created_on><sys_id>0e83760f83640f10921ac710feaad3de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TAM List</sys_name><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>sys_ux_app_route_0e83760f83640f10921ac710feaad3de</sys_update_name><sys_updated_by>dungvu.dev</sys_updated_by><sys_updated_on>2026-05-04 06:29:50</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=0e83760f83640f10921ac710feaad3de"/></record_update>]]></payload>
+        <payload_hash>-1016975756</payload_hash>
+        <record_name>TAM List</record_name>
+        <reverted_from/>
+        <source>782e3bf683904310921ac710feaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 06:29:50</sys_created_on>
+        <sys_id>ce83760f83640f10921ac710feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df1adc6e60000001</sys_recorded_at>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-04 06:29:50</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>8e83760ff8640f105b2264f9074e21e1</update_guid>
+        <update_guid_history>8e83760ff8640f105b2264f9074e21e1:-1016975756</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-11 06:55:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>16ea5d3ddf2d4d50ad5f2beea63e6190</sys_id>
+        <sys_metadata>0e83760f83640f10921ac710feaad3de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAM List</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_0e83760f83640f10921ac710feaad3de</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_0e83760f83640f10921ac710feaad3de">ce83760f83640f10921ac710feaad3e2</sys_update_version>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-11 06:55:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

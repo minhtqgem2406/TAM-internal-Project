@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-04-21 07:23:27</sys_created_on>
+        <sys_id>8e11c04b83d04310921ac710feaad398</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1763182_talent_0_talent_acquisition_task</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_db_view_table_8e11c04b83d04310921ac710feaad398</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-04-23 03:24:16</sys_updated_on>
+        <table>x_1763182_talent_0_talent_acquisition_task</table>
+        <variable_prefix>ta</variable_prefix>
+        <view display_value="x_1763182_talent_0_ta_task">76a0c48f83d04310921ac710feaad35e</view>
+        <where_clause>ta.u_ta_recruit_id=rc.sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

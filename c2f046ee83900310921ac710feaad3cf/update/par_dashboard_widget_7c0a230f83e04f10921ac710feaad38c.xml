@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">27092b4b83e04f10921ac710feaad385</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"showDataLabels":true,"dataLabelsType":"both","truncationType":"middle","showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"showPercentageOfTotalInTooltip":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"center","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"asc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":false,"showFilterIcon":false,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{},"filterConfigurations":"@state.parFilters","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Checkins","sourceType":"table","tableOrViewName":"x_1763182_talent_0_checkins","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfY2hlY2tpbnMxNzc2OTE5OTg3NjE3","dataCategories":["trend","group","simple"]}],"description":"Distribution of fulfillment speeds by recruiter","componentId":"d7t4dhwx","filterPerMetric":[],"sortBy":"choice","configVersion":"23.0.0-ci-SNAPSHOT","metrics":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfY2hlY2tpbnMxNzc2OTE5OTg3NjE3","id":"ZEdGaWJHVjRYekUzTmpNeE9ESmZkR0ZzWlc1MFh6QmZZMmhsWTJ0cGJuTXhOemMyT1RFNU9UZzNOakUzMTc3NjkxOTk5MDUzMQ==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"colorConfig":{"type":"chartColor"},"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfY2hlY2tpbnMxNzc2OTE5OTg3NjE3","groupByField":"u_tof_okr","isRange":false,"isChoice":true,"isPaBucket":false}],"disableRanges":false,"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headerTitle":"2026TOF","titleColor":{"themeVariable":"--now-color_text--primary","value":"#172b31"},"rangesConfig":{},"showTotalValue":false}</component_props>
+        <h>11</h>
+        <name>2026TOF per TA</name>
+        <required_translations>[{"message":"Checkins","comment":"","code":"PAR_DASHBOARD.27092b4b83e04f10921ac710feaad385.7c0a230f83e04f10921ac710feaad38c"},{"message":"2026TOF","comment":"","code":"PAR_DASHBOARD.27092b4b83e04f10921ac710feaad385.7c0a230f83e04f10921ac710feaad38c"},{"message":"Distribution of fulfillment speeds by recruiter","comment":"","code":"PAR_DASHBOARD.27092b4b83e04f10921ac710feaad385.7c0a230f83e04f10921ac710feaad38c"},{"message":"No data available.","comment":"","code":"PAR_DASHBOARD.27092b4b83e04f10921ac710feaad385.7c0a230f83e04f10921ac710feaad38c"},{"message":"There are no scores available for the selected criteria. Contact your admin for more info.","comment":"","code":"PAR_DASHBOARD.27092b4b83e04f10921ac710feaad385.7c0a230f83e04f10921ac710feaad38c"}]</required_translations>
+        <stored_component display_value="2026TOF per TA">f6c83da38354cb10921ac710feaad30d</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 10:27:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c0a230f83e04f10921ac710feaad38c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>2026TOF per TA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_widget_7c0a230f83e04f10921ac710feaad38c</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-08 08:51:10</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
