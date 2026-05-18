@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Recruitment Request Tranform Map">1944059f83548710921ac710feaad37a</map>
+        <order>100</order>
+        <script><![CDATA[/**
+ * Transform script to map and convert date fields from source to target.
+ *
+ * Converts source date values into GlideDateTime objects before assigning
+ * to target fields during the transform process.
+ *
+ * @param {Object} source - The source record from Import Set table
+ * @param {Object} map - The transform map configuration
+ * @param {Object} log - Logger object for transform execution
+ * @param {Object} target - The target record (Recruitment Request table)
+ */
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Convert source date values to GlideDateTime and assign to target fields
+    target.u_start_date = new GlideDateTime(source.u_start_date);             // Start date
+    target.u_planned_end_date = new GlideDateTime(source.u_planned_end_date); // Planned end date
+    target.u_actual_end_date = new GlideDateTime(source.u_actual_end_date);   // Actual end date
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-04-22 07:39:16</sys_created_on>
+        <sys_id>ca5e0d5383588710921ac710feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_transform_script_ca5e0d5383588710921ac710feaad394</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-04-22 07:39:16</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
