@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1763182_talent_0.TAMRecruitmentRequestInfoAJAX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TAMRecruitmentRequestInfoAJAX</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[/**
+ * GEM/Nguyenlh - 15.05.2026:
+ * TAM/Sprint 3/Story TAM_46
+ * Queries the Recruitment Request table and returns the Position field data.
+ * @param sysparm_recruit_id: The sys_id of the Recruitment Request record 
+ * @returns {string} JSON string containing the position details
+ */
+
+var TAMRecruitmentRequestInfoAJAX = Class.create();
+TAMRecruitmentRequestInfoAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'TAMRecruitmentRequestInfoAJAX',
+	getRecruitmentRequestInfo: function() {
+		var recruitId = this.getParameter('sysparm_recruit_id');
+
+		var grRecruitmentRequest = new GlideRecord('x_1763182_talent_0_recruitment_request');  
+		var result = {};
+
+		if(grRecruitmentRequest.get(recruitId)){
+			result = {
+				position: grRecruitmentRequest.getDisplayValue('u_position'),
+			};
+		}
+		return JSON.stringify(result);
+	},
+});
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nguyenlh</sys_created_by>
+        <sys_created_on>2026-05-15 03:19:36</sys_created_on>
+        <sys_id>c2afea2e83fc0710921ac710feaad35b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TAMRecruitmentRequestInfoAJAX</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_include_c2afea2e83fc0710921ac710feaad35b</sys_update_name>
+        <sys_updated_by>nguyenlh</sys_updated_by>
+        <sys_updated_on>2026-05-15 09:49:38</sys_updated_on>
+    </sys_script_include>
+</record_update>
