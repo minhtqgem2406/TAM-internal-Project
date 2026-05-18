@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b3ba3eea83504310921ac710feaad361" max_length="40" name="x_1763182_talent_0_recruitment_request" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b3ba3eea83504310921ac710feaad361" label="Recruitment Request" max_length="40" name="x_1763182_talent_0_recruitment_request" type="collection">
+        <element label="TA Assigned" max_length="32" name="u_assigned_ta" reference="sys_user" type="reference"/>
+        <element label="Time Of Ticket" max_length="40" name="u_time_of_ticket" type="integer"/>
+        <element choice="1" label="Location" max_length="40" name="u_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Korea" sequence="600" value="korea"/>
+                <element inactive_on_update="false" label="Japan" sequence="500" value="japan"/>
+                <element inactive_on_update="false" label="Ha Noi - Client Onsite" sequence="700" value="ha_noi_onsite"/>
+                <element inactive_on_update="false" label="Ha Noi" sequence="100" value="ha_noi"/>
+                <element inactive_on_update="false" label="HCM,Ha Noi" sequence="300" value="hcm_ha_noi"/>
+                <element inactive_on_update="false" label="Ha Noi, HCM" sequence="400" value="ha_noi_hcm"/>
+                <element inactive_on_update="false" label="Korea - Client Onsite" sequence="1000" value="korea_onsite"/>
+                <element inactive_on_update="false" label="Japan - Client Onsite" sequence="900" value="japan_onsite"/>
+                <element inactive_on_update="false" label="HCM" sequence="200" value="hcm"/>
+                <element inactive_on_update="false" label="HCM - Client Onsite" sequence="800" value="hcm_onsite"/>
+            </choice>
+        </element>
+        <element label="Planned End Date" max_length="40" name="u_planned_end_date" type="glide_date"/>
+        <element choice="1" label="Position" max_length="40" name="u_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Intern" sequence="400" value="intern"/>
+                <element inactive_on_update="false" label="HR Specialist" sequence="300" value="hr_specialist"/>
+                <element inactive_on_update="false" label="Sales" sequence="500" value="sales"/>
+                <element inactive_on_update="false" label="Dev" sequence="200" value="dev"/>
+                <element inactive_on_update="false" label="Tester" sequence="600" value="tester"/>
+                <element inactive_on_update="false" label="Bridge Engineer" sequence="100" value="bridge_engineer"/>
+                <element inactive_on_update="false" label="Vendor" sequence="700" value="vendor"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Done" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Offer done" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Open" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Lose" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Cancel" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Department" max_length="40" name="u_department" reference="cmn_department" type="reference">
+            <choice/>
+        </element>
         <element choice="1" label="Hard/Soft" max_length="50" name="u_hard_soft" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Hard-book" sequence="100" value="hard_book"/>
                 <element inactive_on_update="false" label="Soft-book" sequence="200" value="soft-book"/>
             </choice>
         </element>
+        <element label="Additional Information" max_length="40" name="u_additional_information" type="string"/>
+        <element label="Project" max_length="100" name="u_project" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Recruit ID" max_length="40" name="u_recruit_id" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tuyển thay thế" sequence="200" value="replacement"/>
+                <element inactive_on_update="false" label="Tuyển mới" sequence="100" value="new_hire"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Medium" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Urgent" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Level" max_length="40" name="u_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Manager" sequence="800" value="manager"/>
+                <element inactive_on_update="false" label="Middle" sequence="300" value="middle"/>
+                <element inactive_on_update="false" label="Senior" sequence="400" value="senior"/>
+                <element inactive_on_update="false" label="Fresher+" sequence="1300" value="fresher_plus"/>
+                <element inactive_on_update="false" label="Middle+" sequence="1200" value="middle_plus"/>
+                <element inactive_on_update="false" label="Junior - Senior" sequence="500" value="junior_senior"/>
+                <element inactive_on_update="false" label="Fresher" sequence="100" value="fresher"/>
+                <element inactive_on_update="false" label="Specialist" sequence="900" value="specialist"/>
+                <element inactive_on_update="false" label="C-Level" sequence="1100" value="c_level"/>
+                <element inactive_on_update="false" label="Junior" sequence="200" value="junior"/>
+                <element inactive_on_update="false" label="Senior+" sequence="1400" value="senior_plus"/>
+                <element inactive_on_update="false" label="Intern" sequence="600" value="intern"/>
+                <element inactive_on_update="false" label="Director" sequence="1000" value="director"/>
+                <element inactive_on_update="false" label="Leader" sequence="700" value="leader"/>
+            </choice>
+        </element>
+        <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element label="Job Description" max_length="200" name="u_job_description" type="string"/>
+        <element label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
+        <element choice="1" label="Block" max_length="40" name="u_block" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sản xuất" sequence="300" value="production"/>
+                <element inactive_on_update="false" label="Kinh doanh &amp; Marketing" sequence="200" value="business_marketing"/>
+                <element inactive_on_update="false" label="Bidding" sequence="100" value="bidding"/>
+                <element inactive_on_update="false" label="GEM KR" sequence="600" value="gem_kr"/>
+                <element inactive_on_update="false" label="Back office" sequence="400" value="back_office"/>
+                <element inactive_on_update="false" label="GEM JP" sequence="500" value="gem_jp"/>
+            </choice>
+        </element>
+        <element label="Actual End Date" max_length="40" name="u_actual_end_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_assigned_ta"/>
+        </index>
         <index name="index2">
             <element name="u_recruit_id"/>
         </index>

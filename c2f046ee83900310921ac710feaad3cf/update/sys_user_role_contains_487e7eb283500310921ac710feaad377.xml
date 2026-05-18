@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1763182_talent_0.ta manager" name="x_1763182_talent_0.ta manager">caf086ee83900310921ac710feaad320</contains>
+        <role display_value="x_1763182_talent_0.admin" name="x_1763182_talent_0.admin">82f086ee83900310921ac710feaad35b</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-04-21 02:23:19</sys_created_on>
+        <sys_id>487e7eb283500310921ac710feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1763182_talent_0.ta manager.x_1763182_talent_0.admin</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_user_role_contains_487e7eb283500310921ac710feaad377</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-04-21 02:23:19</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
