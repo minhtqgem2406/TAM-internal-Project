@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for records in x_1763182_talent_0_talent_acquisition_task, for users with roles (x_1763182_talent_0.ta specialist, admin, x_1763182_talent_0.ta manager).</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1763182_talent_0_talent_acquisition_task</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-04-20 08:06:05</sys_created_on>
+        <sys_id>d3434b6e83d04310921ac710feaad3e3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1763182_talent_0_talent_acquisition_task</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_security_acl_d3434b6e83d04310921ac710feaad3e3</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-04-21 08:51:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
