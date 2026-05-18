@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_candidate_username" label="Candidate Username" language="en" table="x_1763182_talent_0_bid_presales">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_candidate_username</element>
+            <help/>
+            <hint/>
+            <label>Candidate Username</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_bid_presales</name>
+            <plural>Candidate Usernames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>duypd</sys_created_by>
+            <sys_created_on>2026-05-18 02:10:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Candidate Username</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_documentation_x_1763182_talent_0_bid_presales_u_candidate_username_en</sys_update_name>
+            <sys_updated_by>duypd</sys_updated_by>
+            <sys_updated_on>2026-05-18 02:10:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
