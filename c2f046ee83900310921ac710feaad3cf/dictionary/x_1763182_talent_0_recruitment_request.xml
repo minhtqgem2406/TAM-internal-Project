@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b3ba3eea83504310921ac710feaad361" max_length="40" name="x_1763182_talent_0_recruitment_request" type="collection">
+        <element choice="1" label="Hard/Soft" max_length="50" name="u_hard_soft" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hard-book" sequence="100" value="hard_book"/>
+                <element inactive_on_update="false" label="Soft-book" sequence="200" value="soft-book"/>
+            </choice>
+        </element>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Recruit ID" max_length="40" name="u_recruit_id" type="string"/>
         <index name="index2">
             <element name="u_recruit_id"/>
