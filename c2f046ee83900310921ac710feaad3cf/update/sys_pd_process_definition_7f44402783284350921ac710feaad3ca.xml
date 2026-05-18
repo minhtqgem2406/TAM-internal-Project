@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <allow_as_nested>true</allow_as_nested>
+        <copied_from/>
+        <copied_from_label/>
+        <data_retention_period_override>6_week</data_retention_period_override>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <evaluate_variant_children_after/>
+        <execution_type>on_demand</execution_type>
+        <label>Test Playbook</label>
+        <launcher_description/>
+        <launcher_inputs/>
+        <launcher_record_form_view/>
+        <launcher_show_record_form>false</launcher_show_record_form>
+        <launcher_template_fields/>
+        <launcher_title/>
+        <name>test_playbook</name>
+        <now_assist_kb/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type display_value="Standard playbook">52c6d3eeff1be2102c2fffffffffff44</process_type>
+        <public_access>false</public_access>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-05 07:01:15</sys_created_on>
+        <sys_id>7f44402783284350921ac710feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Playbook</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_pd_process_definition_7f44402783284350921ac710feaad3ca</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-05 07:13:01</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=7f44402783284350921ac710feaad3ca"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_process_input_7f44402783284350921ac710feaad3ca^id=7f44402783284350921ac710feaad3ca"/>
+    <sys_pd_process_input action="delete_multiple" query="model=7f44402783284350921ac710feaad3ca^sys_idNOT IN1854446783284350921ac710feaad348"/>
+    <sys_pd_process_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Parent Record</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Parent Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Test Playbook">7f44402783284350921ac710feaad3ca</model>
+        <model_id>7f44402783284350921ac710feaad3ca</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_process_input_7f44402783284350921ac710feaad3ca</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sys_playbook_execution">sys_playbook_execution</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_process_input</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-05 07:01:16</sys_created_on>
+        <sys_id>1854446783284350921ac710feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parent Record</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_pd_process_input_1854446783284350921ac710feaad348</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-05 07:01:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_process_input>
+    <sys_pd_process_output action="delete_multiple" query="model=7f44402783284350921ac710feaad3ca"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=7f44402783284350921ac710feaad3ca^sys_idNOT IN31e44ba28c8a83b987b57719e929eac4"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>New Stage</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <permission>{}</permission>
+        <process_definition display_value="Test Playbook">7f44402783284350921ac710feaad3ca</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>immediate</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-05 07:01:57</sys_created_on>
+        <sys_id>31e44ba28c8a83b987b57719e929eac4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-05 07:01:57</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=31e44ba28c8a83b987b57719e929eac4"/>
+    <sys_pd_timer_attributes action="delete_multiple" query="process_definition=7f44402783284350921ac710feaad3ca"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=7f44402783284350921ac710feaad3ca"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=7f44402783284350921ac710feaad3ca"/>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <allow_as_nested>true</allow_as_nested>
+        <copied_from/>
+        <copied_from_label/>
+        <data_retention_period_override>6_week</data_retention_period_override>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <evaluate_variant_children_after/>
+        <execution_type>on_demand</execution_type>
+        <label>Test Playbook</label>
+        <launcher_description/>
+        <launcher_inputs/>
+        <launcher_record_form_view/>
+        <launcher_show_record_form>false</launcher_show_record_form>
+        <launcher_template_fields/>
+        <launcher_title/>
+        <name>test_playbook</name>
+        <now_assist_kb/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type display_value="Standard playbook">52c6d3eeff1be2102c2fffffffffff44</process_type>
+        <public_access>false</public_access>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-05 07:01:15</sys_created_on>
+        <sys_id>7f44402783284350921ac710feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Playbook</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_pd_process_definition_7f44402783284350921ac710feaad3ca</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-05 07:13:01</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=7f44402783284350921ac710feaad3ca"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_process_input_7f44402783284350921ac710feaad3ca^id=7f44402783284350921ac710feaad3ca"/>
+</record_update>

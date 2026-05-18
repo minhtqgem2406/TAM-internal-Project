@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Test">7609a34b83e04f10921ac710feaad332</dashboard>
+        <name>New Tab 24</name>
+        <order>1</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 10:24:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b296f4b83e04f10921ac710feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 24</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_tab_6b296f4b83e04f10921ac710feaad367</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-04 10:24:14</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>par_dashboard_tab_6b296f4b83e04f10921ac710feaad367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Test">7609a34b83e04f10921ac710feaad332</dashboard><name>New Tab 24</name><order>1</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>dungvu.dev</sys_created_by><sys_created_on>2026-05-04 10:24:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6b296f4b83e04f10921ac710feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 24</sys_name><sys_overrides/><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>par_dashboard_tab_6b296f4b83e04f10921ac710feaad367</sys_update_name><sys_updated_by>dungvu.dev</sys_updated_by><sys_updated_on>2026-05-04 10:24:14</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>-432517286</payload_hash>
+        <record_name>New Tab 24</record_name>
+        <reverted_from/>
+        <source>782e3bf683904310921ac710feaad35e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 10:24:14</sys_created_on>
+        <sys_id>6f296f4b83e04f10921ac710feaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df2845d6f0000001</sys_recorded_at>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-04 10:24:14</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>2f296f4b82e04f106b1139773c2f6569</update_guid>
+        <update_guid_history>2f296f4b82e04f106b1139773c2f6569:-432517286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 24">e80a230f83e04f10921ac710feaad359</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-04 10:27:51</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>39d4583186424f278d18bd0b373252d9</sys_id>
+        <sys_metadata>6b296f4b83e04f10921ac710feaad367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 24</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_6b296f4b83e04f10921ac710feaad367</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_6b296f4b83e04f10921ac710feaad367">6f296f4b83e04f10921ac710feaad36a</sys_update_version>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-04 10:27:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

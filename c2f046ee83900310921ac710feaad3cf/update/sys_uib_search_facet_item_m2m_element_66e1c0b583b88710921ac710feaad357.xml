@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_search_facet_item_m2m_element">
+    <sys_uib_search_facet_item_m2m_element action="INSERT_OR_UPDATE">
+        <element_table>sys_ux_app_route</element_table>
+        <search_facet_item display_value="Record">e3e779baffb2e2108437fffffffffff9</search_facet_item>
+        <sys_class_name>sys_uib_search_facet_item_m2m_element</sys_class_name>
+        <sys_created_by>dungvu.dev</sys_created_by>
+        <sys_created_on>2026-05-12 06:37:07</sys_created_on>
+        <sys_id>66e1c0b583b88710921ac710feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_uib_search_facet_item_m2m_element_66e1c0b583b88710921ac710feaad357</sys_update_name>
+        <sys_updated_by>dungvu.dev</sys_updated_by>
+        <sys_updated_on>2026-05-12 06:37:07</sys_updated_on>
+        <target_id>62e1c0b583b88710921ac710feaad351</target_id>
+    </sys_uib_search_facet_item_m2m_element>
+</record_update>

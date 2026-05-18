@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Recruitment Request</name>
+        <order/>
+        <roles>x_1763182_talent_0.ta manager</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-04-20 07:35:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d94cfeee83504310921ac710feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ui_application_d94cfeee83504310921ac710feaad34a</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-04-20 07:35:22</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</application>
+        <file_path/>
+        <instance_id>5b0841a2db068ad42f082a5913961917</instance_id>
+        <instance_name>dev267869</instance_name>
+        <name>sys_ui_application_d94cfeee83504310921ac710feaad34a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Recruitment Request</name><order/><roles>x_1763182_talent_0.ta manager</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>quynhttn</sys_created_by><sys_created_on>2026-04-20 07:35:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d94cfeee83504310921ac710feaad34a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Recruitment Request</sys_name><sys_overrides/><sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package><sys_policy/><sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope><sys_update_name>sys_ui_application_d94cfeee83504310921ac710feaad34a</sys_update_name><sys_updated_by>quynhttn</sys_updated_by><sys_updated_on>2026-04-20 07:35:22</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1306077238</payload_hash>
+        <record_name>Recruitment Request</record_name>
+        <reverted_from/>
+        <source>b7b6900b83584310921ac710feaad335</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-04-20 07:35:22</sys_created_on>
+        <sys_id>914cfeee83504310921ac710feaad34e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_recorded_at>19da9d0bd020000001</sys_recorded_at>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-04-22 06:12:48</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>114cfeee4e504310cdd3b4beec4faf4d</update_guid>
+        <update_guid_history>114cfeee4e504310cdd3b4beec4faf4d:-1306077238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-04-22 06:05:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>409c99bc4d4f461a9f53b252ffef8711</sys_id>
+        <sys_metadata>d94cfeee83504310921ac710feaad34a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Request</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_scope_delete display_value="">be60e9c7483a4ac9b11789121f023d09</sys_scope_delete>
+        <sys_update_name>sys_ui_application_d94cfeee83504310921ac710feaad34a</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_d94cfeee83504310921ac710feaad34a">914cfeee83504310921ac710feaad34e</sys_update_version>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-04-22 06:05:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

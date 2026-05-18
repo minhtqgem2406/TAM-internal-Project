@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_level" table="x_1763182_talent_0_recruitment_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_level</element>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:14:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_level</sys_name>
+            <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+            <sys_update_name>sys_choice_x_1763182_talent_0_recruitment_request_u_level</sys_update_name>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-20 08:14:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fresher</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:14:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:30</sys_updated_on>
+            <value>fresher</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:42</sys_updated_on>
+            <value>junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middle</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:45</sys_updated_on>
+            <value>middle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:48</sys_updated_on>
+            <value>senior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior - Senior</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:51</sys_updated_on>
+            <value>junior_senior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intern</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:54</sys_updated_on>
+            <value>intern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leader</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:02:57</sys_updated_on>
+            <value>leader</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:00</sys_updated_on>
+            <value>manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Specialist</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:03</sys_updated_on>
+            <value>specialist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Director</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:20</sys_updated_on>
+            <value>director</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C-Level</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>1100</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:24</sys_updated_on>
+            <value>c_level</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middle+</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>1200</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:27</sys_updated_on>
+            <value>middle_plus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fresher+</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>1300</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:30</sys_updated_on>
+            <value>fresher_plus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior+</label>
+            <language>en</language>
+            <name>x_1763182_talent_0_recruitment_request</name>
+            <sequence>1400</sequence>
+            <synonyms/>
+            <sys_created_by>quynhttn</sys_created_by>
+            <sys_created_on>2026-04-20 08:16:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>quynhttn</sys_updated_by>
+            <sys_updated_on>2026-04-21 04:03:33</sys_updated_on>
+            <value>senior_plus</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

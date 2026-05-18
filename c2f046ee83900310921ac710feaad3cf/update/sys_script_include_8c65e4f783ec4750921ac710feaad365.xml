@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1763182_talent_0.AutoIncreaseDayUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>This script used to update a field value have type integer, auto increase 1 while condition still met</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AutoIncreaseDayUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AutoIncreaseDayUtils = Class.create();
+AutoIncreaseDayUtils.prototype = {
+    initialize: function() {},
+
+    /**
+     * Calculate remaining days between current date and BID Recruit start date,
+     * then update the YTD field for all BID Presales records.
+     * Leverage GlideDateTime and GlideRecord for date calculation and bulk update.
+     */
+    updateRemainingDays: function() {
+        var grBIDPresales = new GlideRecord("x_1763182_talent_0_bid_presales");
+        grBIDPresales.query();
+
+        var now = new GlideDateTime();
+
+        while (grBIDPresales.next()) {
+
+            var startDate = grBIDPresales.u_bid_recruit_id.u_start_date;
+
+            if (!startDay.nil()) {
+                var start = new GlideDateTime(startDate);
+                var diff = GlideDateTime.subtract(start, now);
+				
+                grBIDPresales.u_ytd = diff.getDayPart();
+
+                grBIDPresales.update();
+            }
+        }
+    },
+
+    type: 'AutoIncreaseDayUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-05-06 04:04:49</sys_created_on>
+        <sys_id>8c65e4f783ec4750921ac710feaad365</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AutoIncreaseDayUtils</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_include_8c65e4f783ec4750921ac710feaad365</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-05-07 09:56:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

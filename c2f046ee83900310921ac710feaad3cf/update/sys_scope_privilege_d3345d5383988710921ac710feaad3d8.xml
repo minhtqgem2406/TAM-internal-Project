@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>duypd</sys_created_by>
+        <sys_created_on>2026-04-22 07:56:17</sys_created_on>
+        <sys_id>d3345d5383988710921ac710feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.deleteMultiple</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_scope_privilege_d3345d5383988710921ac710feaad3d8</sys_update_name>
+        <sys_updated_by>duypd</sys_updated_by>
+        <sys_updated_on>2026-04-22 07:56:17</sys_updated_on>
+        <target_name>GlideRecord.deleteMultiple</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

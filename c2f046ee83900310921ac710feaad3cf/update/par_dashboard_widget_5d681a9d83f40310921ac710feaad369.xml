@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">a6d2879c83784710921ac710feaad3d4</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1joajuch93v0ufe8hd5k","filterName":"Priority","filterCustomId":"","filterComponentType":"multiselect","datasource":{"type":"table","payload":{"field":"u_priority","table":"x_1763182_talent_0_recruitment_request","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_priority","table":"x_1763182_talent_0_recruitment_request","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"96d2479c83784710921ac710feaad3e1","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Priority","code":"PAR_DASHBOARD.a6d2879c83784710921ac710feaad3d4.5d681a9d83f40310921ac710feaad369"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.a6d2879c83784710921ac710feaad3d4.5d681a9d83f40310921ac710feaad369"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-11 04:17:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d681a9d83f40310921ac710feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_dashboard_widget_5d681a9d83f40310921ac710feaad369</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-11 04:17:36</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <widget_props/>
+        <x>9</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
