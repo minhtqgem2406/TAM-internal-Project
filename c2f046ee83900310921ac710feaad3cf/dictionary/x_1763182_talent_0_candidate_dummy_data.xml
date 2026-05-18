@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7bfe70df83148710921ac710feaad359" extends="sys_import_set_row" label="Candidate Dummy Data" max_length="40" name="x_1763182_talent_0_candidate_dummy_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email " label="Email " max_length="40" name="u_email_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status " label="Status " max_length="40" name="u_status_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Gender " label="Gender " max_length="40" name="u_gender_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone Number " label="Phone Number " max_length="40" name="u_phone_number_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Address " label="Address " max_length="40" name="u_address_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Username " label="Username " max_length="40" name="u_username_" type="string"/>
+    </element>
+</database>
