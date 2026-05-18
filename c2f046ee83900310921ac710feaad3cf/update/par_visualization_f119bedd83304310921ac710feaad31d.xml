@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Vertical bar">23051643b7e03010097cb81cde11a910</macroponent>
+        <name>Number Of Cases by Division</name>
+        <properties>{"selectedElements":[],"chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":false,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"default","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":true,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":true,"xAxisHidden":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":null,"colors":{},"filterConfigurations":[],"componentId":"4kzleiuu","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","rangesConfig":{},"colorConfig":{"type":"palette","palette":"66a48b81832c0790921ac710feaad38d"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Recruitment Request","sourceType":"table","tableOrViewName":"x_1763182_talent_0_recruitment_request","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfcmVjcnVpdG1lbnRfcmVxdWVzdDE3Nzg0ODEzNDAyODE=","dataCategories":["trend","group","simple"]}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfcmVjcnVpdG1lbnRfcmVxdWVzdDE3Nzg0ODEzNDAyODE=","groupByField":"u_department","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"metrics":[{"dataSource":"dGFibGV4XzE3NjMxODJfdGFsZW50XzBfcmVjcnVpdG1lbnRfcmVxdWVzdDE3Nzg0ODEzNDAyODE=","id":"ZEdGaWJHVjRYekUzTmpNeE9ESmZkR0ZzWlc1MFh6QmZjbVZqY25WcGRHMWxiblJmY21WeGRXVnpkREUzTnpnME9ERXpOREF5T0RFPTE3Nzg0ODEzNDI1NzI=","aggregateFunction":"SUM","numberFormat":{"customFormat":true,"rounding":"HALF_UP","decimalPrecision":0,"abbreviationEnabled":false,"numberInTooltipsEnabled":false,"thousandSeparatorEnabled":true},"axisId":"primary","aggregateField":"u_quantity"}],"headerTitle":"Number Of Cases by Division"}</properties>
+        <requested_by/>
+        <required_translations>[{"comment":"","message":"Recruitment Request","code":"PAR_COMPONENT.f119bedd83304310921ac710feaad31d"},{"comment":"","message":"Number Of Cases by Division","code":"PAR_COMPONENT.f119bedd83304310921ac710feaad31d"},{"comment":"","message":"No data available.","code":"PAR_COMPONENT.f119bedd83304310921ac710feaad31d"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_COMPONENT.f119bedd83304310921ac710feaad31d"}]</required_translations>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-11 06:40:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f119bedd83304310921ac710feaad31d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Number Of Cases by Division</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>par_visualization_f119bedd83304310921ac710feaad31d</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-13 07:08:04</sys_updated_on>
+        <type>bar</type>
+    </par_visualization>
+</record_update>
