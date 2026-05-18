@@ -1,3 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ed3e57ba83980310921ac710feaad34f" max_length="40" name="x_1763182_talent_0_checkins" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ed3e57ba83980310921ac710feaad34f" label="Checkins" max_length="40" name="x_1763182_talent_0_checkins" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Checkin Date" max_length="40" name="u_checkin_date" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Additional Information" max_length="200" name="u_additional_information" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Recruit ID" max_length="32" name="u_recruit_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="TOF" max_length="40" name="u_tof" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Office Email" max_length="100" name="u_office_email" type="email"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Cancel" sequence="20" value="cancel"/>
+                <element inactive_on_update="false" label="Done" sequence="40" value="done"/>
+                <element inactive_on_update="false" label="Không Check-in" sequence="60" value="not_check_in"/>
+                <element inactive_on_update="false" label="Lose" sequence="50" value="lose"/>
+                <element inactive_on_update="false" label="Đã Check-in" sequence="70" value="checked_in"/>
+                <element inactive_on_update="false" label="Offer Done" sequence="30" value="offer_done"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="BID Number" max_length="32" name="u_bid_id" reference="x_1763182_talent_0_bid_presales" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Channel" max_length="40" name="u_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Nội bộ công ty" sequence="20" value="internal"/>
+                <element inactive_on_update="false" label="Email" sequence="10" value="email"/>
+                <element inactive_on_update="false" label="TopCV" sequence="40" value="topcv"/>
+                <element inactive_on_update="false" label="Trường Đại học" sequence="60" value="university"/>
+                <element inactive_on_update="false" label="Vendor" sequence="50" value="vendor"/>
+                <element inactive_on_update="false" label="TA hunt" sequence="30" value="ta_hunt"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_bid_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_recruit_id"/>
+        </index>
+    </element>
 </database>
