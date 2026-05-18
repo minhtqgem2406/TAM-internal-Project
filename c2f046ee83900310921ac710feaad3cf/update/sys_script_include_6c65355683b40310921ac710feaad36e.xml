@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1763182_talent_0.CheckinAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckinAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckinAjax = Class.create();
+CheckinAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	/**
+	 * Created date   : 14/05/2026
+	 * Author         : Quynhttn
+	 * Function       : getCandidateInfomation
+	 * Description    : Get candidate username and phone number
+	 * Parameters     : sysparm_candidate_id
+	 * Return         : JSON string containing candidate information
+	 */
+	getCandidateInfomation: function() {
+		var candidateId = this.getParameter('sysparm_candidate_id'); // Get candidate sys_id
+
+		// Initialize GlideRecord for Candidate table
+		var grCandidate = new GlideRecord('x_1763182_talent_0_candidate');  
+		var result = {};
+
+		// Query candidate record by sys_id
+		if(grCandidate.get(candidateId)){
+			// Get candidate information
+			result = {
+				candidateUsername: grCandidate.getValue('u_username'),
+				candidatePhonenumber: grCandidate.getValue('u_phone_number')
+			};
+		}
+		return JSON.stringify(result);
+	},
+    type: 'CheckinAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-14 04:34:43</sys_created_on>
+        <sys_id>6c65355683b40310921ac710feaad36e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CheckinAjax</sys_name>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_include_6c65355683b40310921ac710feaad36e</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-18 03:24:37</sys_updated_on>
+    </sys_script_include>
+</record_update>
