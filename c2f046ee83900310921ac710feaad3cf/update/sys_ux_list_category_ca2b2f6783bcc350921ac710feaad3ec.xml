@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="TAM Workspace config">ae4dbed983704310921ac710feaad347</configuration>
+        <description/>
+        <order>600</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-18 10:05:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca2b2f6783bcc350921ac710feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Tracking</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_ux_list_category_ca2b2f6783bcc350921ac710feaad3ec</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-18 10:05:47</sys_updated_on>
+        <title>Time Tracking</title>
+    </sys_ux_list_category>
+</record_update>

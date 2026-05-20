@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Transfer reason</column_label>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
         <sys_update_name>sys_dictionary_x_1763182_talent_0_time_tracking_u_transfer_reason</sys_update_name>
         <sys_updated_by>quynhttn</sys_updated_by>
-        <sys_updated_on>2026-05-18 06:27:59</sys_updated_on>
+        <sys_updated_on>2026-05-19 04:13:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

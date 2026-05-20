@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b8b5f6a78370c350921ac710feaad38f" label="Time Tracking" max_length="40" name="x_1763182_talent_0_time_tracking" type="collection">
         <element label="PIC" max_length="32" name="u_pic" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Ticket ID" max_length="32" name="u_ticket_id" reference="x_1763182_talent_0_recruitment_request" type="reference"/>
-        <element display="true" label="Time Track ID" max_length="40" name="u_time_track_id" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Time Track ID" max_length="40" name="u_time_track_id" type="string"/>
         <element label="Transferred" max_length="32" name="u_transfer_pic" reference="sys_user" type="reference"/>
         <element label="Total time spent" max_length="40" name="u_total_time" type="integer"/>
-        <element choice="3" label="Transfer reason" max_length="40" name="u_transfer_reason" type="choice">
+        <element choice="1" label="Transfer reason" max_length="40" name="u_transfer_reason" type="choice">
             <choice>
                 <element inactive_on_update="false" label="TA Resigned" sequence="100" value="ta_resigned"/>
                 <element inactive_on_update="false" label="TA volunteer" sequence="400" value="ta_volunteer"/>

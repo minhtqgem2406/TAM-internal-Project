@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1763182_talent_0_recruitment_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>TAM_Time Tracking Population</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/**
+ * Create and update Time Tracking record
+ * @author GEM/Quynhttn - 18.05.2026
+ * @param {GlideRecord} current
+ * @param {GlideRecord} previous
+ * @returns {none}
+ */
+(function executeRule(current, previous /*null when async*/) {
+
+	var grTimeTracking = new GlideRecord('x_1763182_talent_0_time_tracking');
+
+	// Create new Time Tracking record
+	if (current.operation() == 'insert') {
+		createTimeTracking(grTimeTracking, current);
+		return;
+	}
+
+	// Update Time Tracking when Assigned TA changes
+	if (current.u_assigned_ta.changes()) {
+		updateTimeTracking(grTimeTracking, current, current.sys_updated_on);
+		createTimeTracking(grTimeTracking, current);
+		return;
+	}
+
+	// Update close date
+	if (current.u_actual_end_date.changes()) {
+		updateTimeTracking(grTimeTracking, current, current.u_actual_end_date);
+	}
+
+})(current, previous);
+
+/**
+ * Create Time Tracking record
+ * @param {GlideRecord} grTimeTracking
+ * @param {GlideRecord} current
+ * @returns {none}
+ */
+function createTimeTracking(grTimeTracking, current) {
+
+	grTimeTracking.initialize();
+	grTimeTracking.setValue('u_pic', current.u_assigned_ta);
+	grTimeTracking.setValue('u_ticket_id', current.sys_id);
+	grTimeTracking.setValue('u_open_date', current.u_start_date);
+	grTimeTracking.setValue('u_active', true);
+	grTimeTracking.insert();
+}
+
+/**
+ * Update active Time Tracking record
+ * @param {GlideRecord} grTimeTracking
+ * @param {GlideRecord} current
+ * @param {GlideDateTime} closeDate
+ * @returns {none}
+ */
+function updateTimeTracking(grTimeTracking, current, closeDate) {
+
+	grTimeTracking.addQuery('u_ticket_id', current.sys_id);
+	grTimeTracking.addQuery('u_active', true);
+	grTimeTracking.query();
+
+	if (grTimeTracking.next()) {
+
+		grTimeTracking.setValue('u_close_date', closeDate);
+
+		var startDateGDT = GlideDateTime(grTimeTracking.u_open_date);
+		var endDateGDT = GlideDateTime(closeDate);
+		var totalTimeSpent = GlideDateTime.subtract(startDateGDT, endDateGDT);
+		var totalTimeSpentInDays = Math.floor(totalTimeSpent.getNumericValue() / 86400000);
+
+		grTimeTracking.setValue('u_total_time', totalTimeSpentInDays);
+		grTimeTracking.setValue('u_active', false);
+		grTimeTracking.update();
+	}
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>quynhttn</sys_created_by>
+        <sys_created_on>2026-05-18 07:49:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa7972e783b0c350921ac710feaad3df</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>TAM_Time Tracking Population</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
+        <sys_update_name>sys_script_aa7972e783b0c350921ac710feaad3df</sys_update_name>
+        <sys_updated_by>quynhttn</sys_updated_by>
+        <sys_updated_on>2026-05-19 04:36:03</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa7972e783b0c350921ac710feaad3df"/>
+</record_update>

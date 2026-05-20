@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>quynhttn</sys_created_by>
-        <sys_created_on>2026-05-18 06:14:17</sys_created_on>
-        <sys_id>6636f66b8370c350921ac710feaad3d9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-05-18 09:39:59</sys_created_on>
+        <sys_id>17a4e3ab833cc350921ac710feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1763182_talent_0_time_tracking.admin</sys_name>
         <sys_package display_value="Talent Acquisition Management" source="x_1763182_talent_0">c2f046ee83900310921ac710feaad3cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent Acquisition Management">c2f046ee83900310921ac710feaad3cf</sys_scope>
-        <sys_security_acl display_value="x_1763182_talent_0_time_tracking">223636ef8330c350921ac710feaad3f8</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_6636f66b8370c350921ac710feaad3d9</sys_update_name>
+        <sys_security_acl display_value="x_1763182_talent_0_time_tracking">32363a6b8370c350921ac710feaad3a7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_17a4e3ab833cc350921ac710feaad374</sys_update_name>
         <sys_updated_by>quynhttn</sys_updated_by>
-        <sys_updated_on>2026-05-18 09:34:12</sys_updated_on>
+        <sys_updated_on>2026-05-18 09:39:59</sys_updated_on>
         <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
     </sys_security_acl_role>
 </record_update>
